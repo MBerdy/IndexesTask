@@ -1,0 +1,18 @@
+@media screen and (max-width: 576px) {
+    .main .title {
+        font-size: 42px;        
+    }
+    .subtitle {
+        text-align: center;
+        font-size: 20px;       
+    }
+    .group .wrap {
+        margin-top: 10px;
+        display: block;
+    }
+    .main .group .wrap .item {
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 70%;
+    }   
+}

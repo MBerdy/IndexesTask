@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    background: #E5E5E5;
+}
+.container {
+    max-width: 82%;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 30px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 20px;
+}
+
+.header .btn {
+    width: 153px;
+    height: 32px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.main {
+    padding: 39px 0 155px 0;
+}
+.main .title {
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+ .subtitle {
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.group {
+    margin-top: 5px;
+}
+.group .wrap {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.main .group .wrap .item {
+    margin-right: 10px;
+    padding: 20px 25px 25px 20px;
+    width: 25%;
+    height: 134px;
+    background: #FFFFFF;    
+    /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.03), 0px 0px 1px rgba(0, 0, 0, 0.25); */
+    border-radius: 10px;
+}
+
+.main .group .wrap .item .name {
+    font-size: 18px;
+}
+
+.main .group .wrap .item .price {
+    display:flex;
+    justify-content: start;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.main .group .wrap .item .cap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.main .group .wrap .item .cap .percentage {
+    color: #03CEA4;
+}
